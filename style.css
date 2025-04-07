@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #8e2de2, #4a00e0);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .player {
+    background: #222;
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .controls button {
+    background: #444;
+    color: white;
+    border: none;
+    font-size: 24px;
+    margin: 0 10px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .controls button:hover {
+    background: #555;
+  }
+  
+  .progress-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  input[type="range"] {
+    flex: 1;
+  }
+  
+  .volume {
+    margin-top: 10px;
+  }
